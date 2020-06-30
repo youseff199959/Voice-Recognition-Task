@@ -13,7 +13,7 @@ recognizedText = ""
 temp = ""
 
 def reocognizeSpeech() :
-     print("gwa l function")
+     
      r = sr.Recognizer()
      with sr.Microphone() as source:
 
